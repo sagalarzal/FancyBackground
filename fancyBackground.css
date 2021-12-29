@@ -34,7 +34,7 @@
 }
 
 #fd-1{
-    animation: fd1 100s linear 0s infinite forwards alternate;
+    animation: fd1 3s linear 0s infinite forwards alternate;
 }
 #fd-2{
     
@@ -110,7 +110,7 @@
     animation: fj6 60s ease 0s infinite forwards alternate;
 }
 
-
+/* 
 .fancy-dot:hover{
     transition-delay: 0.5s;
     transition-duration: 2s;
@@ -135,43 +135,30 @@
     transition: ease;
     transition-duration: 2s;
     transform: skewX(-30deg);
-}
+} */
 
-@keyframes fd1{
-    0%{
-        top: -10vh;
-        left: 44vw;
-        transform: rotate(0deg);
-    }
-
-    100%{
-        top: 44vw;
-        left: 150vw;
-        transform: rotate(360deg);
-    }
-}
 
 
 @keyframes fd1{
     0%{
     top: 45vh;
     left: 118vw;
-    transform: rotate(104);
+    transform: rotate(104deg);
     }
     33%{
     top: -19vh;
     left: 70vw;
-    transform: rotate(182);
+    transform: rotate(182deg);
     }
     66%{
     top: 55vh;
     left: 58vw;
-    transform: rotate(113);
+    transform: rotate(113deg);
     }
     100%{
     top: 45vh;
     left: 118vw;
-    transform: rotate(106);
+    transform: rotate(106deg);
     }
     }
     
@@ -179,22 +166,22 @@
     0%{
     top: 41vh;
     left: 51vw;
-    transform: rotate(152);
+    transform: rotate(152deg);
     }
     33%{
     top: 57vh;
     left: 115vw;
-    transform: rotate(86);
+    transform: rotate(86deg);
     }
     66%{
     top: 111vh;
     left: -15vw;
-    transform: rotate(353);
+    transform: rotate(353deg);
     }
     100%{
     top: 41vh;
     left: 51vw;
-    transform: rotate(48);
+    transform: rotate(48deg);
     }
     }
     
@@ -202,22 +189,22 @@
     0%{
     top: 93vh;
     left: 54vw;
-    transform: rotate(161);
+    transform: rotate(161deg);
     }
     33%{
     top: 94vh;
     left: -4vw;
-    transform: rotate(213);
+    transform: rotate(213deg);
     }
     66%{
     top: 50vh;
     left: 80vw;
-    transform: rotate(136);
+    transform: rotate(136deg);
     }
     100%{
     top: 93vh;
     left: 54vw;
-    transform: rotate(257);
+    transform: rotate(257deg);
     }
     }
     
@@ -225,22 +212,22 @@
     0%{
     top: -19vh;
     left: 58vw;
-    transform: rotate(351);
+    transform: rotate(351deg);
     }
     33%{
     top: 49vh;
     left: 36vw;
-    transform: rotate(345);
+    transform: rotate(345deg);
     }
     66%{
     top: -20vh;
     left: 63vw;
-    transform: rotate(74);
+    transform: rotate(74deg);
     }
     100%{
     top: -19vh;
     left: 58vw;
-    transform: rotate(122);
+    transform: rotate(122deg);
     }
     }
     
@@ -248,22 +235,22 @@
     0%{
     top: 104vh;
     left: 82vw;
-    transform: rotate(241);
+    transform: rotate(241deg);
     }
     33%{
     top: 53vh;
     left: 42vw;
-    transform: rotate(180);
+    transform: rotate(180deg);
     }
     66%{
     top: 105vh;
     left: 78vw;
-    transform: rotate(127);
+    transform: rotate(127deg);
     }
     100%{
     top: 104vh;
     left: 82vw;
-    transform: rotate(144);
+    transform: rotate(144deg);
     }
     }
     
@@ -271,22 +258,22 @@
     0%{
     top: 115vh;
     left: 70vw;
-    transform: rotate(191);
+    transform: rotate(191deg);
     }
     33%{
     top: 97vh;
     left: 25vw;
-    transform: rotate(248);
+    transform: rotate(248deg);
     }
     66%{
     top: 8vh;
     left: 70vw;
-    transform: rotate(43);
+    transform: rotate(43deg);
     }
     100%{
     top: 115vh;
     left: 70vw;
-    transform: rotate(343);
+    transform: rotate(343deg);
     }
     }
     
@@ -294,22 +281,22 @@
     0%{
     top: 19vh;
     left: 70vw;
-    transform: rotate(322);
+    transform: rotate(322deg);
     }
     33%{
     top: 70vh;
     left: 3vw;
-    transform: rotate(54);
+    transform: rotate(54deg);
     }
     66%{
     top: 119vh;
     left: 65vw;
-    transform: rotate(288);
+    transform: rotate(288deg);
     }
     100%{
     top: 19vh;
     left: 70vw;
-    transform: rotate(180);
+    transform: rotate(180deg);
     }
     }
     
@@ -317,22 +304,22 @@
     0%{
     top: 36vh;
     left: -6vw;
-    transform: rotate(39);
+    transform: rotate(39deg);
     }
     33%{
     top: 18vh;
     left: 75vw;
-    transform: rotate(80);
+    transform: rotate(80deg);
     }
     66%{
     top: 89vh;
     left: 1vw;
-    transform: rotate(301);
+    transform: rotate(301deg);
     }
     100%{
     top: 36vh;
     left: -6vw;
-    transform: rotate(161);
+    transform: rotate(161deg);
     }
     }
     
@@ -340,22 +327,22 @@
     0%{
     top: 66vh;
     left: 67vw;
-    transform: rotate(247);
+    transform: rotate(247deg);
     }
     33%{
     top: 79vh;
     left: 67vw;
-    transform: rotate(278);
+    transform: rotate(278deg);
     }
     66%{
     top: 44vh;
     left: 12vw;
-    transform: rotate(255);
+    transform: rotate(255deg);
     }
     100%{
     top: 66vh;
     left: 67vw;
-    transform: rotate(231);
+    transform: rotate(231deg);
     }
     }
     
@@ -363,22 +350,22 @@
     0%{
     top: 112vh;
     left: 119vw;
-    transform: rotate(69);
+    transform: rotate(69deg);
     }
     33%{
     top: -3vh;
     left: 100vw;
-    transform: rotate(40);
+    transform: rotate(40deg);
     }
     66%{
     top: -10vh;
     left: 68vw;
-    transform: rotate(79);
+    transform: rotate(79deg);
     }
     100%{
     top: 112vh;
     left: 119vw;
-    transform: rotate(86);
+    transform: rotate(86deg);
     }
     }
     
@@ -386,22 +373,22 @@
     0%{
     top: 30vh;
     left: 53vw;
-    transform: rotate(37);
+    transform: rotate(37deg);
     }
     33%{
     top: 72vh;
     left: 116vw;
-    transform: rotate(237);
+    transform: rotate(237deg);
     }
     66%{
     top: 43vh;
     left: 40vw;
-    transform: rotate(217);
+    transform: rotate(217deg);
     }
     100%{
     top: 30vh;
     left: 53vw;
-    transform: rotate(31);
+    transform: rotate(31deg);
     }
     }
     
@@ -409,22 +396,22 @@
     0%{
     top: 29vh;
     left: 28vw;
-    transform: rotate(169);
+    transform: rotate(169deg);
     }
     33%{
     top: 103vh;
     left: 18vw;
-    transform: rotate(246);
+    transform: rotate(246deg);
     }
     66%{
     top: 27vh;
     left: 54vw;
-    transform: rotate(57);
+    transform: rotate(57deg);
     }
     100%{
     top: 29vh;
     left: 28vw;
-    transform: rotate(269);
+    transform: rotate(269deg);
     }
     }
     
@@ -432,22 +419,22 @@
     0%{
     top: 104vh;
     left: 9vw;
-    transform: rotate(190);
+    transform: rotate(190deg);
     }
     33%{
     top: 14vh;
     left: 95vw;
-    transform: rotate(323);
+    transform: rotate(323deg);
     }
     66%{
     top: 41vh;
     left: 105vw;
-    transform: rotate(211);
+    transform: rotate(211deg);
     }
     100%{
     top: 104vh;
     left: 9vw;
-    transform: rotate(3);
+    transform: rotate(3deg);
     }
     }
     
@@ -455,22 +442,22 @@
     0%{
     top: 60vh;
     left: 21vw;
-    transform: rotate(17);
+    transform: rotate(17deg);
     }
     33%{
     top: 57vh;
     left: 48vw;
-    transform: rotate(136);
+    transform: rotate(136deg);
     }
     66%{
     top: 14vh;
     left: 50vw;
-    transform: rotate(197);
+    transform: rotate(197deg);
     }
     100%{
     top: 60vh;
     left: 21vw;
-    transform: rotate(285);
+    transform: rotate(285deg);
     }
     }
     
@@ -478,22 +465,22 @@
     0%{
     top: 81vh;
     left: -15vw;
-    transform: rotate(286);
+    transform: rotate(286deg);
     }
     33%{
     top: 55vh;
     left: 72vw;
-    transform: rotate(113);
+    transform: rotate(113deg);
     }
     66%{
     top: 92vh;
     left: -19vw;
-    transform: rotate(8);
+    transform: rotate(8deg);
     }
     100%{
     top: 81vh;
     left: -15vw;
-    transform: rotate(77);
+    transform: rotate(77deg);
     }
     }
     
@@ -501,22 +488,22 @@
     0%{
     top: -14vh;
     left: 22vw;
-    transform: rotate(143);
+    transform: rotate(143deg);
     }
     33%{
     top: 18vh;
     left: 120vw;
-    transform: rotate(242);
+    transform: rotate(242deg);
     }
     66%{
     top: 57vh;
     left: 61vw;
-    transform: rotate(298);
+    transform: rotate(298deg);
     }
     100%{
     top: -14vh;
     left: 22vw;
-    transform: rotate(347);
+    transform: rotate(347deg);
     }
     }
     
@@ -524,22 +511,22 @@
     0%{
     top: 78vh;
     left: -10vw;
-    transform: rotate(326);
+    transform: rotate(326deg);
     }
     33%{
     top: 10vh;
     left: 38vw;
-    transform: rotate(271);
+    transform: rotate(271deg);
     }
     66%{
     top: 61vh;
     left: -1vw;
-    transform: rotate(275);
+    transform: rotate(275deg);
     }
     100%{
     top: 78vh;
     left: -10vw;
-    transform: rotate(284);
+    transform: rotate(284deg);
     }
     }
     
@@ -547,22 +534,22 @@
     0%{
     top: -5vh;
     left: 39vw;
-    transform: rotate(285);
+    transform: rotate(285deg);
     }
     33%{
     top: 30vh;
     left: 92vw;
-    transform: rotate(128);
+    transform: rotate(128deg);
     }
     66%{
     top: 41vh;
     left: 107vw;
-    transform: rotate(268);
+    transform: rotate(268deg);
     }
     100%{
     top: -5vh;
     left: 39vw;
-    transform: rotate(3);
+    transform: rotate(3deg);
     }
     }
     
@@ -570,22 +557,22 @@
     0%{
     top: 19vh;
     left: 98vw;
-    transform: rotate(257);
+    transform: rotate(257deg);
     }
     33%{
     top: 68vh;
     left: 63vw;
-    transform: rotate(150);
+    transform: rotate(150deg);
     }
     66%{
     top: 109vh;
     left: 67vw;
-    transform: rotate(228);
+    transform: rotate(228deg);
     }
     100%{
     top: 19vh;
     left: 98vw;
-    transform: rotate(310);
+    transform: rotate(310deg);
     }
     }
     
@@ -593,22 +580,22 @@
     0%{
     top: 30vh;
     left: -11vw;
-    transform: rotate(329);
+    transform: rotate(329deg);
     }
     33%{
     top: 88vh;
     left: 39vw;
-    transform: rotate(16);
+    transform: rotate(16deg);
     }
     66%{
     top: 116vh;
     left: 23vw;
-    transform: rotate(10);
+    transform: rotate(10deg);
     }
     100%{
     top: 30vh;
     left: -11vw;
-    transform: rotate(274);
+    transform: rotate(274deg);
     }
     }
     
@@ -616,22 +603,22 @@
     0%{
     top: 57vh;
     left: 55vw;
-    transform: rotate(176);
+    transform: rotate(176deg);
     }
     33%{
     top: -15vh;
     left: 77vw;
-    transform: rotate(128);
+    transform: rotate(128deg);
     }
     66%{
     top: 45vh;
     left: 99vw;
-    transform: rotate(138);
+    transform: rotate(138deg);
     }
     100%{
     top: 57vh;
     left: 55vw;
-    transform: rotate(205);
+    transform: rotate(205deg);
     }
     }
     
@@ -639,22 +626,22 @@
     0%{
     top: 78vh;
     left: 88vw;
-    transform: rotate(243);
+    transform: rotate(243deg);
     }
     33%{
     top: 105vh;
     left: -6vw;
-    transform: rotate(25);
+    transform: rotate(25deg);
     }
     66%{
     top: 55vh;
     left: 35vw;
-    transform: rotate(174);
+    transform: rotate(174deg);
     }
     100%{
     top: 78vh;
     left: 88vw;
-    transform: rotate(222);
+    transform: rotate(222deg);
     }
     }
     
@@ -662,22 +649,22 @@
     0%{
     top: 53vh;
     left: 119vw;
-    transform: rotate(204);
+    transform: rotate(204deg);
     }
     33%{
     top: -14vh;
     left: 50vw;
-    transform: rotate(300);
+    transform: rotate(300deg);
     }
     66%{
     top: 50vh;
     left: 33vw;
-    transform: rotate(6);
+    transform: rotate(6deg);
     }
     100%{
     top: 53vh;
     left: 119vw;
-    transform: rotate(283);
+    transform: rotate(283deg);
     }
     }
     
@@ -685,22 +672,21 @@
     0%{
     top: 54vh;
     left: 12vw;
-    transform: rotate(114);
+    transform: rotate(114deg);
     }
     33%{
     top: 88vh;
     left: -10vw;
-    transform: rotate(237);
+    transform: rotate(237deg);
     }
     66%{
     top: -6vh;
     left: 36vw;
-    transform: rotate(326);
+    transform: rotate(326deg);
     }
     100%{
     top: 54vh;
     left: 12vw;
-    transform: rotate(326);
+    transform: rotate(326deg);
     }
     }
-    
