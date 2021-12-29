@@ -1,0 +1,706 @@
+#fancyBackgroundOverlay {
+    background-color: #FFFFFFCC;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    z-index: -1;
+} 
+
+
+.fancy-dot{
+    width: 3vw;
+    position: fixed;
+    z-index: -2;
+}
+
+.fancy-i{
+    width: 4vw;
+    position: fixed;
+    z-index: -2;
+}
+
+.fancy-l{
+    width: 10vw;
+    position: fixed;
+    z-index: -2;
+}
+
+.fancy-j{
+    width: 12vw;
+    position: fixed;
+    z-index: -2;
+}
+
+#fd-1{
+    animation: fd1 100s linear 0s infinite forwards alternate;
+}
+#fd-2{
+    
+    animation: fd2 20s ease 0s infinite forwards alternate;
+}
+#fd-3{
+    animation: fd3 30s linear 0s infinite forwards alternate;
+}
+#fd-4{
+    animation: fd4 40s ease 0s infinite forwards alternate;
+}
+#fd-5{
+    animation: fd5 50s linear 0s infinite forwards alternate;
+}
+#fd-6{
+    animation: fd6 60s ease 0s infinite forwards alternate;
+}
+
+#fi-1{
+    animation: fi1 100s linear 0s infinite forwards alternate;
+}
+#fi-2{
+    animation: fi2 20s ease 0s infinite forwards alternate;
+}
+#fi-3{
+    animation: fi3 30s linear 0s infinite forwards alternate;
+}
+#fi-4{
+    animation: fi4 40s ease 0s infinite forwards alternate;
+}
+#fi-5{
+    animation: fi5 50s linear 0s infinite forwards alternate;
+}
+#fi-6{
+    animation: fi6 60s ease 0s infinite forwards alternate;
+}
+
+#fl-1{
+    animation: fl1 100s linear 0s infinite forwards alternate;
+}
+#fl-2{
+    animation: fl2 20s ease 0s infinite forwards alternate;
+}
+#fl-3{
+    animation: fl3 30s linear 0s infinite forwards alternate;
+}
+#fl-4{
+    animation: fl4 40s ease 0s infinite forwards alternate;
+}
+#fl-5{
+    animation: fl5 50s linear 0s infinite forwards alternate;
+}
+#fl-6{
+    animation: fl6 60s ease 0s infinite forwards alternate;
+}
+
+#fj-1{
+    animation: fj1 100s linear 0s infinite forwards alternate;
+}
+#fj-2{
+    animation: fj2 20s ease 0s infinite forwards alternate;
+}
+#fj-3{
+    animation: fj3 30s linear 0s infinite forwards alternate;
+}
+#fj-4{
+    animation: fj4 40s ease 0s infinite forwards alternate;
+}
+#fj-5{
+    animation: fj5 50s linear 0s infinite forwards alternate;
+}
+#fj-6{
+    animation: fj6 60s ease 0s infinite forwards alternate;
+}
+
+
+.fancy-dot:hover{
+    transition-delay: 0.5s;
+    transition-duration: 2s;
+    transition-property: width;
+    transition-timing-function: ease;
+    width: 6vw;
+}
+
+.fancy-j:hover{
+    transition: ease;
+    transition-duration: 2s;
+    width: 6vw;
+}
+
+.fancy-i:hover{
+    transition: ease;
+    transition-duration: 2s;
+    transform: rotate(180deg);
+}
+
+.fancy-l:hover{
+    transition: ease;
+    transition-duration: 2s;
+    transform: skewX(-30deg);
+}
+
+@keyframes fd1{
+    0%{
+        top: -10vh;
+        left: 44vw;
+        transform: rotate(0deg);
+    }
+
+    100%{
+        top: 44vw;
+        left: 150vw;
+        transform: rotate(360deg);
+    }
+}
+
+
+@keyframes fd1{
+    0%{
+    top: 45vh;
+    left: 118vw;
+    transform: rotate(104);
+    }
+    33%{
+    top: -19vh;
+    left: 70vw;
+    transform: rotate(182);
+    }
+    66%{
+    top: 55vh;
+    left: 58vw;
+    transform: rotate(113);
+    }
+    100%{
+    top: 45vh;
+    left: 118vw;
+    transform: rotate(106);
+    }
+    }
+    
+    @keyframes fd2{
+    0%{
+    top: 41vh;
+    left: 51vw;
+    transform: rotate(152);
+    }
+    33%{
+    top: 57vh;
+    left: 115vw;
+    transform: rotate(86);
+    }
+    66%{
+    top: 111vh;
+    left: -15vw;
+    transform: rotate(353);
+    }
+    100%{
+    top: 41vh;
+    left: 51vw;
+    transform: rotate(48);
+    }
+    }
+    
+    @keyframes fd3{
+    0%{
+    top: 93vh;
+    left: 54vw;
+    transform: rotate(161);
+    }
+    33%{
+    top: 94vh;
+    left: -4vw;
+    transform: rotate(213);
+    }
+    66%{
+    top: 50vh;
+    left: 80vw;
+    transform: rotate(136);
+    }
+    100%{
+    top: 93vh;
+    left: 54vw;
+    transform: rotate(257);
+    }
+    }
+    
+    @keyframes fd4{
+    0%{
+    top: -19vh;
+    left: 58vw;
+    transform: rotate(351);
+    }
+    33%{
+    top: 49vh;
+    left: 36vw;
+    transform: rotate(345);
+    }
+    66%{
+    top: -20vh;
+    left: 63vw;
+    transform: rotate(74);
+    }
+    100%{
+    top: -19vh;
+    left: 58vw;
+    transform: rotate(122);
+    }
+    }
+    
+    @keyframes fd5{
+    0%{
+    top: 104vh;
+    left: 82vw;
+    transform: rotate(241);
+    }
+    33%{
+    top: 53vh;
+    left: 42vw;
+    transform: rotate(180);
+    }
+    66%{
+    top: 105vh;
+    left: 78vw;
+    transform: rotate(127);
+    }
+    100%{
+    top: 104vh;
+    left: 82vw;
+    transform: rotate(144);
+    }
+    }
+    
+    @keyframes fd6{
+    0%{
+    top: 115vh;
+    left: 70vw;
+    transform: rotate(191);
+    }
+    33%{
+    top: 97vh;
+    left: 25vw;
+    transform: rotate(248);
+    }
+    66%{
+    top: 8vh;
+    left: 70vw;
+    transform: rotate(43);
+    }
+    100%{
+    top: 115vh;
+    left: 70vw;
+    transform: rotate(343);
+    }
+    }
+    
+    @keyframes fi1{
+    0%{
+    top: 19vh;
+    left: 70vw;
+    transform: rotate(322);
+    }
+    33%{
+    top: 70vh;
+    left: 3vw;
+    transform: rotate(54);
+    }
+    66%{
+    top: 119vh;
+    left: 65vw;
+    transform: rotate(288);
+    }
+    100%{
+    top: 19vh;
+    left: 70vw;
+    transform: rotate(180);
+    }
+    }
+    
+    @keyframes fi2{
+    0%{
+    top: 36vh;
+    left: -6vw;
+    transform: rotate(39);
+    }
+    33%{
+    top: 18vh;
+    left: 75vw;
+    transform: rotate(80);
+    }
+    66%{
+    top: 89vh;
+    left: 1vw;
+    transform: rotate(301);
+    }
+    100%{
+    top: 36vh;
+    left: -6vw;
+    transform: rotate(161);
+    }
+    }
+    
+    @keyframes fi3{
+    0%{
+    top: 66vh;
+    left: 67vw;
+    transform: rotate(247);
+    }
+    33%{
+    top: 79vh;
+    left: 67vw;
+    transform: rotate(278);
+    }
+    66%{
+    top: 44vh;
+    left: 12vw;
+    transform: rotate(255);
+    }
+    100%{
+    top: 66vh;
+    left: 67vw;
+    transform: rotate(231);
+    }
+    }
+    
+    @keyframes fi4{
+    0%{
+    top: 112vh;
+    left: 119vw;
+    transform: rotate(69);
+    }
+    33%{
+    top: -3vh;
+    left: 100vw;
+    transform: rotate(40);
+    }
+    66%{
+    top: -10vh;
+    left: 68vw;
+    transform: rotate(79);
+    }
+    100%{
+    top: 112vh;
+    left: 119vw;
+    transform: rotate(86);
+    }
+    }
+    
+    @keyframes fi5{
+    0%{
+    top: 30vh;
+    left: 53vw;
+    transform: rotate(37);
+    }
+    33%{
+    top: 72vh;
+    left: 116vw;
+    transform: rotate(237);
+    }
+    66%{
+    top: 43vh;
+    left: 40vw;
+    transform: rotate(217);
+    }
+    100%{
+    top: 30vh;
+    left: 53vw;
+    transform: rotate(31);
+    }
+    }
+    
+    @keyframes fi6{
+    0%{
+    top: 29vh;
+    left: 28vw;
+    transform: rotate(169);
+    }
+    33%{
+    top: 103vh;
+    left: 18vw;
+    transform: rotate(246);
+    }
+    66%{
+    top: 27vh;
+    left: 54vw;
+    transform: rotate(57);
+    }
+    100%{
+    top: 29vh;
+    left: 28vw;
+    transform: rotate(269);
+    }
+    }
+    
+    @keyframes fl1{
+    0%{
+    top: 104vh;
+    left: 9vw;
+    transform: rotate(190);
+    }
+    33%{
+    top: 14vh;
+    left: 95vw;
+    transform: rotate(323);
+    }
+    66%{
+    top: 41vh;
+    left: 105vw;
+    transform: rotate(211);
+    }
+    100%{
+    top: 104vh;
+    left: 9vw;
+    transform: rotate(3);
+    }
+    }
+    
+    @keyframes fl2{
+    0%{
+    top: 60vh;
+    left: 21vw;
+    transform: rotate(17);
+    }
+    33%{
+    top: 57vh;
+    left: 48vw;
+    transform: rotate(136);
+    }
+    66%{
+    top: 14vh;
+    left: 50vw;
+    transform: rotate(197);
+    }
+    100%{
+    top: 60vh;
+    left: 21vw;
+    transform: rotate(285);
+    }
+    }
+    
+    @keyframes fl3{
+    0%{
+    top: 81vh;
+    left: -15vw;
+    transform: rotate(286);
+    }
+    33%{
+    top: 55vh;
+    left: 72vw;
+    transform: rotate(113);
+    }
+    66%{
+    top: 92vh;
+    left: -19vw;
+    transform: rotate(8);
+    }
+    100%{
+    top: 81vh;
+    left: -15vw;
+    transform: rotate(77);
+    }
+    }
+    
+    @keyframes fl4{
+    0%{
+    top: -14vh;
+    left: 22vw;
+    transform: rotate(143);
+    }
+    33%{
+    top: 18vh;
+    left: 120vw;
+    transform: rotate(242);
+    }
+    66%{
+    top: 57vh;
+    left: 61vw;
+    transform: rotate(298);
+    }
+    100%{
+    top: -14vh;
+    left: 22vw;
+    transform: rotate(347);
+    }
+    }
+    
+    @keyframes fl5{
+    0%{
+    top: 78vh;
+    left: -10vw;
+    transform: rotate(326);
+    }
+    33%{
+    top: 10vh;
+    left: 38vw;
+    transform: rotate(271);
+    }
+    66%{
+    top: 61vh;
+    left: -1vw;
+    transform: rotate(275);
+    }
+    100%{
+    top: 78vh;
+    left: -10vw;
+    transform: rotate(284);
+    }
+    }
+    
+    @keyframes fl6{
+    0%{
+    top: -5vh;
+    left: 39vw;
+    transform: rotate(285);
+    }
+    33%{
+    top: 30vh;
+    left: 92vw;
+    transform: rotate(128);
+    }
+    66%{
+    top: 41vh;
+    left: 107vw;
+    transform: rotate(268);
+    }
+    100%{
+    top: -5vh;
+    left: 39vw;
+    transform: rotate(3);
+    }
+    }
+    
+    @keyframes fj1{
+    0%{
+    top: 19vh;
+    left: 98vw;
+    transform: rotate(257);
+    }
+    33%{
+    top: 68vh;
+    left: 63vw;
+    transform: rotate(150);
+    }
+    66%{
+    top: 109vh;
+    left: 67vw;
+    transform: rotate(228);
+    }
+    100%{
+    top: 19vh;
+    left: 98vw;
+    transform: rotate(310);
+    }
+    }
+    
+    @keyframes fj2{
+    0%{
+    top: 30vh;
+    left: -11vw;
+    transform: rotate(329);
+    }
+    33%{
+    top: 88vh;
+    left: 39vw;
+    transform: rotate(16);
+    }
+    66%{
+    top: 116vh;
+    left: 23vw;
+    transform: rotate(10);
+    }
+    100%{
+    top: 30vh;
+    left: -11vw;
+    transform: rotate(274);
+    }
+    }
+    
+    @keyframes fj3{
+    0%{
+    top: 57vh;
+    left: 55vw;
+    transform: rotate(176);
+    }
+    33%{
+    top: -15vh;
+    left: 77vw;
+    transform: rotate(128);
+    }
+    66%{
+    top: 45vh;
+    left: 99vw;
+    transform: rotate(138);
+    }
+    100%{
+    top: 57vh;
+    left: 55vw;
+    transform: rotate(205);
+    }
+    }
+    
+    @keyframes fj4{
+    0%{
+    top: 78vh;
+    left: 88vw;
+    transform: rotate(243);
+    }
+    33%{
+    top: 105vh;
+    left: -6vw;
+    transform: rotate(25);
+    }
+    66%{
+    top: 55vh;
+    left: 35vw;
+    transform: rotate(174);
+    }
+    100%{
+    top: 78vh;
+    left: 88vw;
+    transform: rotate(222);
+    }
+    }
+    
+    @keyframes fj5{
+    0%{
+    top: 53vh;
+    left: 119vw;
+    transform: rotate(204);
+    }
+    33%{
+    top: -14vh;
+    left: 50vw;
+    transform: rotate(300);
+    }
+    66%{
+    top: 50vh;
+    left: 33vw;
+    transform: rotate(6);
+    }
+    100%{
+    top: 53vh;
+    left: 119vw;
+    transform: rotate(283);
+    }
+    }
+    
+    @keyframes fj6{
+    0%{
+    top: 54vh;
+    left: 12vw;
+    transform: rotate(114);
+    }
+    33%{
+    top: 88vh;
+    left: -10vw;
+    transform: rotate(237);
+    }
+    66%{
+    top: -6vh;
+    left: 36vw;
+    transform: rotate(326);
+    }
+    100%{
+    top: 54vh;
+    left: 12vw;
+    transform: rotate(326);
+    }
+    }
+    
